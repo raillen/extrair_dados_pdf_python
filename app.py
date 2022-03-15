@@ -1,14 +1,13 @@
 import os
 from PyPDF2 import PdfFileReader
 
-diretorio = ''
 qnt_paginas = 0
 qnt_arquivos = 0
 
-diretorio = input(r'Insira o diretório: ')
+caminho = input(r'Insira o diretório: ')
 
 # a função walk percorre todos os subdiretórios, incluindo os ocultos
-arquivos_listados = os.walk(diretorio)
+arquivos_listados = os.walk(caminho)
 
 # ele retorna pasta, subpasta e os arquivos
 for diretorio, subpastas, arquivos in arquivos_listados:
