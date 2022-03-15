@@ -3,3 +3,5 @@
 - Esse pequeno script percorre todo o diretório passado pesquisando por arquivos em PDF, somando as páginas e retornando o valor final.
 
 - É um script simples, fiz por caráter de estudo e também para resolver esse problema, mas pretendo, no futuro, gerar um projeto maior.
+
+- Basta rodar o código [py app.py] __Colar__ o caminho desejado no terminal e aguardar!!
